@@ -1,0 +1,51 @@
+@import 'colors/colors.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*backgrounds*/
+.bg-light-brown{
+  background: $light-brown;
+}
+.bg-medium-brown{
+  background: $medium-brown;
+}
+.bg-green{
+  background: $green;
+}
+.bg_dark_medium{
+  background: darken($green, 3);
+}
+.bg_dark_orange{
+  background: darken($orange, 10);
+}
+.error,.construccion{
+  width: 100%;
+  min-height: 90vh;
+  background-image: url('../img/404.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.construccion{
+  background-image: url('../img/construccion.jpg');
+}
+/*contact*/
+input,textarea{
+  border: 1px solid rgba($grey, .3);  
+}
+.contact-span{
+  min-height: 87vh;
+}
+.img-contact{
+  background-image: url('../img/bg-contact.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}

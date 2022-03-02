@@ -1,0 +1,55 @@
+.slider {
+    min-height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider1 {
+    background-image: url("../../img/bg-slider-01.jpg");
+}
+
+.slider2 {
+    background-image: url("../../img/bg-slider-02.jpg");
+}
+
+.slider3 {
+    background-image: url("../../img/bg-slider-03.jpg");
+}
+
+.slider4 {
+    background-image: url("../../img/bg-slider-04.jpg");
+}
+
+.slider-title {
+    text-shadow: 3px 3px 5px $black;
+}
+
+.slider-pages {
+    min-height: 350px;
+}
+
+.slider-about,
+.slider-benefits {
+    background-image: url('../../img/bg-about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider-benefits {
+    background-image: url('../../img/bg-benefits.jpg');
+}
+.slider_partners{
+    background-image: url('../../img/partners_bg.jpg');
+    color: $white;
+    text-shadow: 1px 1px 0px $black,2px 2px 0px $black,3px 3px 6px $black;
+}
+@media only screen and (max-width: 600px) {
+    .slider2,.slider3 {
+        background-position: 44%;
+    }
+    .slider-benefits,.slider4 {
+        background-position: 65%;
+    }
+}

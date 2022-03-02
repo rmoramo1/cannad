@@ -1,0 +1,17 @@
+#footer {
+    .nav-link {
+        color: $white;
+
+        &:hover {
+            color: $orange;
+        }
+
+        &:focus {
+            color: $orange;
+        }
+
+        &:active {
+            color: $orange;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.bgHeader {
+    background: $white;
+}
+
+.nav-link {
+    color:darken($orange, 30);
+    font-weight: bold;
+    &:hover {
+        color: $green;
+    }
+    &:focus {
+        color: $green;
+    }
+    &:active {
+        color: $green;
+    }
+}
+
+#navbarNav {
+    .active {
+        color:$green;
+    }
+}
